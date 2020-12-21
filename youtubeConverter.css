@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav1{
+    background: rgb(14, 14, 14);
+    width: 100%;
+    min-height: 100px;
+}
+.logoNav1{
+    width: 65px;
+    height: auto;
+}
+.h1Nav1{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Lobster;
+    color: white;
+}
+.btnNav{
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnNav:hover{
+    outline: none;
+}
+.btn4Nav1{
+    background-color: red;
+    border: none;
+    border-bottom: 4px ridge rgb(68, 0, 0);
+    border-right: 3px ridge rgb(68, 0, 0);
+}
+.btn3Nav1{
+    border: none;
+    border-bottom: 4px ridge rgb(116, 116, 116);
+    border-right: 3px ridge rgb(116, 116, 116);
+}
+.btn3Nav1:hover,.btn4Nav1:hover{
+    background-color: black;
+}
+.btn4Nav1:hover{
+    color: red;
+}
+.btn3Nav1:hover{
+    color: white;
+}
+.btn4Nav1:active, .btn4Nav1:focus, .btn3Nav1:active, .btn3Nav1:focus {
+    outline: 0;
+}
+.mainP1{
+    font-size: 20px;
+    margin: 10px;
+}
+.divCont{
+    margin-top: 120px;
+}
+.mainI,.mainIBtn{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid ;
+    line-height: 50px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.mainI{
+    background: rgb(240, 240, 240);
+    border-bottom: 4px ridge rgb(153, 153, 153);
+    border-right: 3px ridge rgb(153, 153, 153);
+    padding-inline-start: 20px;
+    word-wrap: break-word;
+}
+.mainI:hover{
+    border-bottom: 4px ridge black;
+    border-right: 3px ridge black;
+}
+.mainIBtn{
+    background:red;
+    border-bottom: 4px ridge rgb(68, 0, 0);
+    border-right: 3px ridge rgb(68, 0, 0);
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Verdana;
+}
+.mainIBtn:hover{
+    color: white;
+    border-bottom: 4px ridge rgb(149, 149, 149);
+    border-right: 3px ridge rgb(149, 149, 149);
+}
+.mainIBtn:active,.mainIBtn:focus{outline: none;}
+.welcoming{
+    font-weight: bold;
+    animation-name: welcoming;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes welcoming{
+    0%{
+        color: black;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: red;
+    }
+}
+.foot{
+    position: absolute;
+    bottom: 0%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
